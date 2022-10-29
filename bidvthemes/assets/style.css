@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.bill-wrapper {
+    background: rgb(0,102,174);
+    background: linear-gradient(0deg, rgba(0,102,174,1) 0%, rgba(0,193,176,1) 100%);
+    width: 100%;
+    height: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bill-container {
+    background-image: url('../assets/media/images/bidvbg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 442px;
+    height: 687px;
+}
+
+.head-bill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.bidv-logo {
+    width: 170px;
+}
+
+.bidv-status {
+    line-height: 68px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.body-bill {
+    height: 278px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+}
+
+.body-container {
+    line-height: 40px;
+}
+
+.td-right {
+    color: #0E6D9D;
+    font-weight: 500;
+}
+
+.td-content {
+    color: black;
+    font-weight: 400;
+}
+
+.bidv-code {
+    text-align: center;
+    font-size: 1.3em;
+    height: 50px;
+}
+
+.code-title {
+    color: #737174;
+    font-size: 1.1em;
+}
+
+.code {
+    font-weight: 600;
+    font-size: 1.15em;
+}
+
+.footage-bill {
+    width: 394px;
+    height: 216px;
+    margin: 0px auto;
+    display: flex;
+    font-weight: 600;
+    font-size: 1.1em;
+
+}
+
+.bidv-icon {
+    width: 25px;
+}
+
+.bidv-table {
+    width: 100%;
+    text-align: center;
+}
+
+.bidv-table td{
+    width: 33.33%;
+    height: 90px;
+
+}
+
+.bidv-table td div{
+    width: 65%;
+    margin: 0px auto;   
+    line-height: 20px;
+    height: 100%;
+}
+
+.icon-special {
+    height: 25px;
+    width: 20px;
+}
+
+.bidv-table img {
+    margin-bottom: 6px;
+}
